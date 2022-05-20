@@ -121,6 +121,13 @@ export class GuiModel {
                             "width": 2
                         },
                         {
+                            "id": "location",
+                            "type": "text",
+                            "name": "Location",
+                            "width": 2,
+                            "required": true
+                        },
+                        {
                             "type": "deleteButton",
                             "name": "Delete"
                         },
