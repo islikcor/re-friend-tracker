@@ -159,7 +159,8 @@ export class GuiModel {
                     "name": "Ok"
                     }
                  ]
-                }
+                },
+                
             ],
             "pageList": [
                 {
@@ -291,7 +292,7 @@ export class GuiModel {
                         "icon": "fa-running",
                         "color": "green",
                         "form": {
-                        "form": "ActivityForm"
+                        "form": "AddActivityForm"
                         }
                     },
                     {
@@ -301,7 +302,7 @@ export class GuiModel {
                         "search": true,
                         "url": "/activity",
                         "form": {
-                        "form": "ActivityForm"
+                        "form": "AddActivityForm"
                         }
                     }
                     ]
