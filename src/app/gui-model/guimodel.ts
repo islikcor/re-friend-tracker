@@ -127,7 +127,15 @@ export class GuiModel {
                             "url": "/location",
                             "form": "LocationFrom",
                             "width": 2
-                          },
+                        },
+                        {
+                            "id": "friends",
+                            "type": "autocomplete",
+                            "name": "Friend",
+                            "url": "/friend",
+                            "form": "FriendForm",
+                            "width": 2
+                        },
                         {
                             "type": "deleteButton",
                             "name": "Delete"
